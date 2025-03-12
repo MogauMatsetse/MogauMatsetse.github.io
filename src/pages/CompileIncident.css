@@ -1,0 +1,92 @@
+.page-content {
+    padding: 20px;
+    background-color: #dff0f2; /* Light background */
+    border-radius: 8px; /* Rounded corners */
+    max-width: 800px;
+    margin: 20px auto; /* Center alignment */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  .btnCompile, .btnView {
+    background-color: #099978;
+    border: none;
+    padding: 20px 40px;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+    border-radius: 18px;
+    font-family: century Gothic;
+  }
+
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h2 {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .incident-form {
+    display: flex;
+    flex-direction: column;
+    background-color: #dff0f2;
+    font-family: century Gothic;
+  }
+  
+  .incident-form div {
+    margin-bottom: 15px;
+  }
+  
+  .incident-form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .incident-form input,
+  .incident-form textarea,
+  .incident-form select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    font-family: century Gothic;
+  }
+  
+  .incident-form input:focus,
+  .incident-form textarea:focus,
+  .incident-form select:focus {
+    outline: none;
+    border-color: #007bff; /* Highlight border */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+  }
+  
+  .incident-form textarea {
+    resize: vertical; /* Allows resizing vertically */
+    height: 100px; /* Default height */
+  }
+  
+  .submit-btn {
+    background-color: #fa9d1a; /* Primary color */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #02655c; /* Darker shade on hover */
+  }
+  

@@ -1,0 +1,37 @@
+
+.user-management-container {
+  width: 400px;
+  margin: auto;
+  background-color: #dff0f2;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-management-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.user-management-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #099978;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.user-management-container button:hover{
+    background-color: #fa9d1a;
+}
+.user-management-container .error {
+  color: red;
+  font-size: 14px;
+}

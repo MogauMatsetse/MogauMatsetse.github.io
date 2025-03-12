@@ -1,0 +1,41 @@
+.main-content {
+  margin-left: 270px;
+  padding: 20px;
+}
+
+#incident-report form {
+  display: flex;
+  flex-direction: column;
+}
+
+#incident-report input,
+#incident-report textarea {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#incident-report button {
+  background-color: #ffa726;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#view-reports {
+  margin-top: 40px;
+}
+
+.report {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.report button {
+  margin: 0 5px;
+}
